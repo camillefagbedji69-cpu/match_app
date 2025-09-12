@@ -66,9 +66,6 @@ if st.button("Prédire le résultat"):
         'Probabilité': proba
     })
 
-    st.write("**Probabilités par issue :**")
-    st.dataframe(proba_df)
-
     # --- Barplot ---
     fig, ax = plt.subplots()
     sns.barplot(x='Résultat', y='Probabilité', data=proba_df, palette='viridis', ax=ax)
@@ -81,3 +78,4 @@ if st.button("Prédire le résultat"):
 if st.button("Prédire le nombre de buts"):
     but_predit = pipeline_regression.predict(input_df)
     st.write(f"**Nombre total de buts prédits : {but_predit[0]:.0f}**")
+
