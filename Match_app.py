@@ -14,14 +14,6 @@ st.title("Prédiction des matchs de football")
 # --- Charger la base ---
 data = pd.read_csv("Foot_data.csv", sep=";")
 
-# --- Extraire les valeurs uniques pour les selectbox ---
-equipes = pd.unique(data[['HomeTeam','AwayTeam']].values.ravel())
-arbitres = data['Referee'].unique()
-
-# --- Sélections utilisateur ---
-home_team = st.selectbox("Équipe à domicile", equipes)
-away_team = st.selectbox("Équipe visiteuse", equipes)
-arbitre = st.selectbox("Arbitre du match", arbitres)
 # --- Colonnes catégorielles pour le pipeline ---
 cols_cat = data.select_dtypes(include=["object", "category"]).columns.tolist()
 
