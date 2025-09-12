@@ -16,10 +16,15 @@ data = pd.read_csv("Foot_data.csv", sep=';')
 
 # --- Créer colonne total_goals pour vérifier la cible régression ---
 data['total_goals'] = data['FTHG'] + data['FTAG']
+data.rename(columns={
+    'HomeTeam': 'equipe_home',
+    'AwayTeam': 'equipe_away',
+    'Referee': 'arbitre'
+}, inplace=True)
 
-# --- Extraire les valeurs uniques pour les selectbox ---
-equipes = pd.unique(data[['HomeTeam','AwayTeam']].values.ravel())
-arbitres = data['Referee'].unique()
+# ensuite tu peux faire
+equipes = pd.unique(data[['equipe_home','equipe_away']].values.ravel())
+arbitres = data['arbitre'].unique()
 
 # --- Sélection utilisateur ---
 home_team = st.selectbox("Équipe à domicile", equipes)
@@ -66,3 +71,4 @@ if st.button("Prédire le résultat"):
 if st.button("Prédire le nombre de buts"):
     but_predit = model_regress.predict(input_df)[0]  # récupère la valeur
     st.write(f"**Nombre total de buts prédits : {but_predit:.0f}**")
+
