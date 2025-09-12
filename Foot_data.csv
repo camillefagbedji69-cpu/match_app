@@ -1,0 +1,381 @@
+Match_id;Date;Time;HomeTeam;AwayTeam;FTHG;FTAG;FTR;Referee
+1;16/08/2024;20:00;Man United;Fulham;1;0;H;R Jones
+2;17/08/2024;12:30;Ipswich;Liverpool;0;2;A;T Robinson
+3;17/08/2024;15:00;Arsenal;Wolves;2;0;H;J Gillett
+4;17/08/2024;15:00;Everton;Brighton;0;3;A;S Hooper
+5;17/08/2024;15:00;Newcastle;Southampton;1;0;H;C Pawson
+6;17/08/2024;15:00;Nott'm Forest;Bournemouth;1;1;D;M Oliver
+7;17/08/2024;17:30;West Ham;Aston Villa;1;2;A;T Harrington
+8;18/08/2024;14:00;Brentford;Crystal Palace;2;1;H;S Barrott
+9;18/08/2024;16:30;Chelsea;Man City;0;2;A;A Taylor
+10;19/08/2024;20:00;Leicester;Tottenham;1;1;D;C Kavanagh
+11;24/08/2024;12:30;Brighton;Man United;2;1;H;C Pawson
+12;24/08/2024;15:00;Crystal Palace;West Ham;0;2;A;R Jones
+13;24/08/2024;15:00;Fulham;Leicester;2;1;H;D Bond
+14;24/08/2024;15:00;Man City;Ipswich;4;1;H;M Salisbury
+15;24/08/2024;15:00;Southampton;Nott'm Forest;0;1;A;S Barrott
+16;24/08/2024;15:00;Tottenham;Everton;4;0;H;A Taylor
+17;24/08/2024;17:30;Aston Villa;Arsenal;0;2;A;M Oliver
+18;25/08/2024;14:00;Bournemouth;Newcastle;1;1;D;D Coote
+19;25/08/2024;14:00;Wolves;Chelsea;2;6;A;D England
+20;25/08/2024;16:30;Liverpool;Brentford;2;0;H;S Attwell
+21;31/08/2024;12:30;Arsenal;Brighton;1;1;D;C Kavanagh
+22;31/08/2024;15:00;Brentford;Southampton;3;1;H;J Smith
+23;31/08/2024;15:00;Everton;Bournemouth;2;3;A;S Attwell
+24;31/08/2024;15:00;Ipswich;Fulham;1;1;D;L Smith
+25;31/08/2024;15:00;Leicester;Aston Villa;1;2;A;D Coote
+26;31/08/2024;15:00;Nott'm Forest;Wolves;1;1;D;S Hooper
+27;31/08/2024;17:30;West Ham;Man City;1;3;A;M Oliver
+28;01/09/2024;13:30;Chelsea;Crystal Palace;1;1;D;J Gillett
+29;01/09/2024;13:30;Newcastle;Tottenham;2;1;H;R Jones
+30;01/09/2024;16:00;Man United;Liverpool;0;3;A;A Taylor
+31;14/09/2024;12:30;Southampton;Man United;0;3;A;S Attwell
+32;14/09/2024;15:00;Brighton;Ipswich;0;0;D;S Barrott
+33;14/09/2024;15:00;Crystal Palace;Leicester;2;2;D;T Harrington
+34;14/09/2024;15:00;Fulham;West Ham;1;1;D;T Robinson
+35;14/09/2024;15:00;Liverpool;Nott'm Forest;0;1;A;M Oliver
+36;14/09/2024;15:00;Man City;Brentford;2;1;H;D Bond
+37;14/09/2024;17:30;Aston Villa;Everton;3;2;H;C Pawson
+38;14/09/2024;20:00;Bournemouth;Chelsea;0;1;A;A Taylor
+39;15/09/2024;14:00;Tottenham;Arsenal;0;1;A;J Gillett
+40;15/09/2024;16:30;Wolves;Newcastle;1;2;A;C Kavanagh
+41;21/09/2024;12:30;West Ham;Chelsea;0;3;A;S Barrott
+42;21/09/2024;15:00;Aston Villa;Wolves;3;1;H;T Robinson
+43;21/09/2024;15:00;Fulham;Newcastle;3;1;H;P Bankes
+44;21/09/2024;15:00;Leicester;Everton;1;1;D;D England
+45;21/09/2024;15:00;Liverpool;Bournemouth;3;0;H;T Harrington
+46;21/09/2024;15:00;Southampton;Ipswich;1;1;D;S Allison
+47;21/09/2024;15:00;Tottenham;Brentford;3;1;H;J Brooks
+48;21/09/2024;17:30;Crystal Palace;Man United;0;0;D;D Coote
+49;22/09/2024;14:00;Brighton;Nott'm Forest;2;2;D;R Jones
+50;22/09/2024;16:30;Man City;Arsenal;2;2;D;M Oliver
+51;28/09/2024;12:30;Newcastle;Man City;1;1;D;J Gillett
+52;28/09/2024;15:00;Arsenal;Leicester;4;2;H;S Barrott
+53;28/09/2024;15:00;Brentford;West Ham;1;1;D;S Hooper
+54;28/09/2024;15:00;Chelsea;Brighton;4;2;H;P Bankes
+55;28/09/2024;15:00;Everton;Crystal Palace;2;1;H;A Madley
+56;28/09/2024;15:00;Nott'm Forest;Fulham;0;1;A;J Smith
+57;28/09/2024;17:30;Wolves;Liverpool;1;2;A;A Taylor
+58;29/09/2024;14:00;Ipswich;Aston Villa;2;2;D;S Attwell
+59;29/09/2024;16:30;Man United;Tottenham;0;3;A;C Kavanagh
+60;30/09/2024;20:00;Bournemouth;Southampton;3;1;H;M Oliver
+61;05/10/2024;12:30;Crystal Palace;Liverpool;0;1;A;S Hooper
+62;05/10/2024;15:00;Arsenal;Southampton;3;1;H;T Harrington
+63;05/10/2024;15:00;Brentford;Wolves;5;3;H;A Madley
+64;05/10/2024;15:00;Leicester;Bournemouth;1;0;H;D Bond
+65;05/10/2024;15:00;Man City;Fulham;3;2;H;P Bankes
+66;05/10/2024;15:00;West Ham;Ipswich;4;1;H;A Taylor
+67;05/10/2024;17:30;Everton;Newcastle;0;0;D;C Pawson
+68;06/10/2024;14:00;Aston Villa;Man United;0;0;D;R Jones
+69;06/10/2024;14:00;Chelsea;Nott'm Forest;1;1;D;C Kavanagh
+70;06/10/2024;16:30;Brighton;Tottenham;3;2;H;D Coote
+71;19/10/2024;12:30;Tottenham;West Ham;4;1;H;A Madley
+72;19/10/2024;15:00;Fulham;Aston Villa;1;3;A;D England
+73;19/10/2024;15:00;Ipswich;Everton;0;2;A;M Oliver
+74;19/10/2024;15:00;Man United;Brentford;2;1;H;S Barrott
+75;19/10/2024;15:00;Newcastle;Brighton;0;1;A;P Bankes
+76;19/10/2024;15:00;Southampton;Leicester;2;3;A;A Taylor
+77;19/10/2024;17:30;Bournemouth;Arsenal;2;0;H;R Jones
+78;20/10/2024;14:00;Wolves;Man City;1;2;A;C Kavanagh
+79;20/10/2024;16:30;Liverpool;Chelsea;2;1;H;J Brooks
+80;21/10/2024;20:00;Nott'm Forest;Crystal Palace;1;0;H;T Robinson
+81;25/10/2024;20:00;Leicester;Nott'm Forest;1;3;A;C Pawson
+82;26/10/2024;15:00;Aston Villa;Bournemouth;1;1;D;A Madley
+83;26/10/2024;15:00;Brentford;Ipswich;4;3;H;L Smith
+84;26/10/2024;15:00;Brighton;Wolves;2;2;D;M Oliver
+85;26/10/2024;15:00;Man City;Southampton;1;0;H;T Harrington
+86;26/10/2024;17:30;Everton;Fulham;1;1;D;J Brooks
+87;27/10/2024;14:00;Chelsea;Newcastle;2;1;H;S Hooper
+88;27/10/2024;14:00;Crystal Palace;Tottenham;1;0;H;D Bond
+89;27/10/2024;14:00;West Ham;Man United;2;1;H;D Coote
+90;27/10/2024;16:30;Arsenal;Liverpool;2;2;D;A Taylor
+91;02/11/2024;12:30;Newcastle;Arsenal;1;0;H;J Brooks
+92;02/11/2024;15:00;Bournemouth;Man City;2;1;H;M Oliver
+93;02/11/2024;15:00;Ipswich;Leicester;1;1;D;T Robinson
+94;02/11/2024;15:00;Liverpool;Brighton;2;1;H;T Harrington
+95;02/11/2024;15:00;Nott'm Forest;West Ham;3;0;H;P Bankes
+96;02/11/2024;15:00;Southampton;Everton;1;0;H;A Madley
+97;02/11/2024;17:30;Wolves;Crystal Palace;2;2;D;A Taylor
+98;03/11/2024;14:00;Tottenham;Aston Villa;4;1;H;C Pawson
+99;03/11/2024;16:30;Man United;Chelsea;1;1;D;R Jones
+100;04/11/2024;20:00;Fulham;Brentford;2;1;H;S Attwell
+101;09/11/2024;15:00;Brentford;Bournemouth;3;2;H;D Bond
+102;09/11/2024;15:00;Crystal Palace;Fulham;0;2;A;M Salisbury
+103;09/11/2024;15:00;West Ham;Everton;0;0;D;S Attwell
+104;09/11/2024;15:00;Wolves;Southampton;2;0;H;T Bramall
+105;09/11/2024;17:30;Brighton;Man City;2;1;H;S Barrott
+106;09/11/2024;20:00;Liverpool;Aston Villa;2;0;H;D Coote
+107;10/11/2024;14:00;Man United;Leicester;3;0;H;P Bankes
+108;10/11/2024;14:00;Nott'm Forest;Newcastle;1;3;A;A Taylor
+109;10/11/2024;14:00;Tottenham;Ipswich;1;2;A;D England
+110;10/11/2024;16:30;Chelsea;Arsenal;1;1;D;M Oliver
+111;23/11/2024;12:30;Leicester;Chelsea;1;2;A;A Madley
+112;23/11/2024;15:00;Arsenal;Nott'm Forest;3;0;H;S Hooper
+113;23/11/2024;15:00;Aston Villa;Crystal Palace;2;2;D;T Robinson
+114;23/11/2024;15:00;Bournemouth;Brighton;1;2;A;S Attwell
+115;23/11/2024;15:00;Everton;Brentford;0;0;D;C Kavanagh
+116;23/11/2024;15:00;Fulham;Wolves;1;4;A;R Jones
+117;23/11/2024;17:30;Man City;Tottenham;0;4;A;J Brooks
+118;24/11/2024;14:00;Southampton;Liverpool;2;3;A;S Barrott
+119;24/11/2024;16:30;Ipswich;Man United;1;1;D;A Taylor
+120;25/11/2024;20:00;Newcastle;West Ham;0;2;A;C Pawson
+121;29/11/2024;20:00;Brighton;Southampton;1;1;D;R Jones
+122;30/11/2024;15:00;Brentford;Leicester;4;1;H;M Oliver
+123;30/11/2024;15:00;Crystal Palace;Newcastle;1;1;D;D England
+124;30/11/2024;15:00;Nott'm Forest;Ipswich;1;0;H;T Harrington
+125;30/11/2024;15:00;Wolves;Bournemouth;2;4;A;P Bankes
+126;30/11/2024;17:30;West Ham;Arsenal;2;5;A;A Taylor
+127;01/12/2024;13:30;Chelsea;Aston Villa;3;0;H;S Attwell
+128;01/12/2024;13:30;Man United;Everton;4;0;H;J Brooks
+129;01/12/2024;13:30;Tottenham;Fulham;1;1;D;D Bond
+130;01/12/2024;16:00;Liverpool;Man City;2;0;H;C Kavanagh
+131;03/12/2024;19:30;Ipswich;Crystal Palace;0;1;A;C Pawson
+132;03/12/2024;20:15;Leicester;West Ham;3;1;H;J Smith
+133;04/12/2024;19:30;Everton;Wolves;4;0;H;M Salisbury
+134;04/12/2024;19:30;Man City;Nott'm Forest;3;0;H;M Oliver
+135;04/12/2024;19:30;Newcastle;Liverpool;3;3;D;A Madley
+136;04/12/2024;19:30;Southampton;Chelsea;1;5;A;T Harrington
+137;04/12/2024;20:15;Arsenal;Man United;2;0;H;S Barrott
+138;04/12/2024;20:15;Aston Villa;Brentford;3;1;H;L Smith
+139;05/12/2024;19:30;Fulham;Brighton;3;1;H;P Bankes
+140;05/12/2024;20:15;Bournemouth;Tottenham;1;0;H;S Hooper
+141;07/12/2024;15:00;Aston Villa;Southampton;1;0;H;D Bond
+142;07/12/2024;15:00;Brentford;Newcastle;4;2;H;T Robinson
+143;07/12/2024;15:00;Crystal Palace;Man City;2;2;D;R Jones
+144;07/12/2024;17:30;Man United;Nott'm Forest;2;3;A;D England
+145;08/12/2024;14:00;Fulham;Arsenal;1;1;D;C Kavanagh
+146;08/12/2024;14:00;Ipswich;Bournemouth;1;2;A;M Salisbury
+147;08/12/2024;14:00;Leicester;Brighton;2;2;D;S Attwell
+148;08/12/2024;16:30;Tottenham;Chelsea;3;4;A;A Taylor
+149;09/12/2024;20:00;West Ham;Wolves;2;1;H;J Brooks
+150;14/12/2024;15:00;Arsenal;Everton;0;0;D;C Pawson
+151;14/12/2024;15:00;Liverpool;Fulham;2;2;D;T Harrington
+152;14/12/2024;15:00;Newcastle;Leicester;4;0;H;T Bramall
+153;14/12/2024;15:00;Wolves;Ipswich;1;2;A;S Hooper
+154;14/12/2024;17:30;Nott'm Forest;Aston Villa;2;1;H;S Barrott
+155;15/12/2024;14:00;Brighton;Crystal Palace;1;3;A;M Oliver
+156;15/12/2024;16:30;Man City;Man United;1;2;A;A Taylor
+157;15/12/2024;19:00;Chelsea;Brentford;2;1;H;P Bankes
+158;15/12/2024;19:00;Southampton;Tottenham;0;5;A;D England
+159;16/12/2024;20:00;Bournemouth;West Ham;1;1;D;C Kavanagh
+160;21/12/2024;12:30;Aston Villa;Man City;2;1;H;P Bankes
+161;21/12/2024;15:00;Brentford;Nott'm Forest;0;2;A;M Oliver
+162;21/12/2024;15:00;Ipswich;Newcastle;0;4;A;S Attwell
+163;21/12/2024;15:00;West Ham;Brighton;1;1;D;R Jones
+164;21/12/2024;17:30;Crystal Palace;Arsenal;1;5;A;S Hooper
+165;22/12/2024;14:00;Everton;Chelsea;0;0;D;C Kavanagh
+166;22/12/2024;14:00;Fulham;Southampton;0;0;D;T Robinson
+167;22/12/2024;14:00;Leicester;Wolves;0;3;A;A Taylor
+168;22/12/2024;14:00;Man United;Bournemouth;0;3;A;C Pawson
+169;22/12/2024;16:30;Tottenham;Liverpool;3;6;A;S Barrott
+170;26/12/2024;12:30;Man City;Everton;1;1;D;S Hooper
+171;26/12/2024;15:00;Bournemouth;Crystal Palace;0;0;D;T Bramall
+172;26/12/2024;15:00;Chelsea;Fulham;1;2;A;S Barrott
+173;26/12/2024;15:00;Newcastle;Aston Villa;3;0;H;A Taylor
+174;26/12/2024;15:00;Nott'm Forest;Tottenham;1;0;H;C Pawson
+175;26/12/2024;15:00;Southampton;West Ham;0;1;A;L Smith
+176;26/12/2024;17:30;Wolves;Man United;2;0;H;T Harrington
+177;26/12/2024;20:00;Liverpool;Leicester;3;1;H;D Bond
+178;27/12/2024;19:30;Brighton;Brentford;0;0;D;A Madley
+179;27/12/2024;20:15;Arsenal;Ipswich;1;0;H;D England
+180;29/12/2024;14:30;Leicester;Man City;0;2;A;M Oliver
+181;29/12/2024;15:00;Crystal Palace;Southampton;2;1;H;M Salisbury
+182;29/12/2024;15:00;Everton;Nott'm Forest;0;2;A;T Harrington
+183;29/12/2024;15:00;Fulham;Bournemouth;2;2;D;R Jones
+184;29/12/2024;15:00;Tottenham;Wolves;2;2;D;C Kavanagh
+185;29/12/2024;17:15;West Ham;Liverpool;0;5;A;A Taylor
+186;30/12/2024;19:45;Aston Villa;Brighton;2;2;D;C Pawson
+187;30/12/2024;19:45;Ipswich;Chelsea;2;0;H;J Brooks
+188;30/12/2024;20:00;Man United;Newcastle;0;2;A;S Hooper
+189;01/01/2025;17:30;Brentford;Arsenal;1;3;A;P Bankes
+190;04/01/2025;12:30;Tottenham;Newcastle;1;2;A;A Madley
+191;04/01/2025;15:00;Aston Villa;Leicester;2;1;H;J Gillett
+192;04/01/2025;15:00;Bournemouth;Everton;1;0;H;J Brooks
+193;04/01/2025;15:00;Crystal Palace;Chelsea;1;1;D;T Robinson
+194;04/01/2025;15:00;Man City;West Ham;4;1;H;M Salisbury
+195;04/01/2025;15:00;Southampton;Brentford;0;5;A;S Attwell
+196;04/01/2025;17:30;Brighton;Arsenal;1;1;D;A Taylor
+197;05/01/2025;14:00;Fulham;Ipswich;2;2;D;D Bond
+198;05/01/2025;16:30;Liverpool;Man United;2;2;D;M Oliver
+199;06/01/2025;20:00;Wolves;Nott'm Forest;0;3;A;P Bankes
+200;14/01/2025;19:30;Brentford;Man City;2;2;D;A Taylor
+201;14/01/2025;19:30;Chelsea;Bournemouth;2;2;D;R Jones
+202;14/01/2025;19:30;West Ham;Fulham;3;2;H;C Pawson
+203;14/01/2025;20:00;Nott'm Forest;Liverpool;1;1;D;C Kavanagh
+204;15/01/2025;19:30;Everton;Aston Villa;0;1;A;S Barrott
+205;15/01/2025;19:30;Leicester;Crystal Palace;0;2;A;A Madley
+206;15/01/2025;19:30;Newcastle;Wolves;3;0;H;D England
+207;15/01/2025;20:00;Arsenal;Tottenham;2;1;H;S Hooper
+208;16/01/2025;19:30;Ipswich;Brighton;0;2;A;T Harrington
+209;16/01/2025;20:00;Man United;Southampton;3;1;H;J Brooks
+210;18/01/2025;12:30;Newcastle;Bournemouth;1;4;A;S Attwell
+211;18/01/2025;15:00;Brentford;Liverpool;0;2;A;A Madley
+212;18/01/2025;15:00;Leicester;Fulham;0;2;A;M Salisbury
+213;18/01/2025;15:00;West Ham;Crystal Palace;0;2;A;T Bramall
+214;18/01/2025;17:30;Arsenal;Aston Villa;2;2;D;C Kavanagh
+215;19/01/2025;14:00;Everton;Tottenham;3;2;H;D England
+216;19/01/2025;14:00;Man United;Brighton;1;3;A;P Bankes
+217;19/01/2025;14:00;Nott'm Forest;Southampton;3;2;H;A Taylor
+218;19/01/2025;16:30;Ipswich;Man City;0;6;A;S Barrott
+219;20/01/2025;20:00;Chelsea;Wolves;3;1;H;S Hooper
+220;25/01/2025;15:00;Bournemouth;Nott'm Forest;5;0;H;C Pawson
+221;25/01/2025;15:00;Brighton;Everton;0;1;A;T Robinson
+222;25/01/2025;15:00;Liverpool;Ipswich;4;1;H;M Salisbury
+223;25/01/2025;15:00;Southampton;Newcastle;1;3;A;S Barrott
+224;25/01/2025;15:00;Wolves;Arsenal;0;1;A;M Oliver
+225;25/01/2025;17:30;Man City;Chelsea;3;1;H;J Brooks
+226;26/01/2025;14:00;Crystal Palace;Brentford;1;2;A;T Harrington
+227;26/01/2025;14:00;Tottenham;Leicester;1;2;A;R Jones
+228;26/01/2025;16:30;Aston Villa;West Ham;1;1;D;P Bankes
+229;26/01/2025;19:00;Fulham;Man United;0;1;A;A Taylor
+230;01/02/2025;12:30;Nott'm Forest;Brighton;7;0;H;S Hooper
+231;01/02/2025;15:00;Bournemouth;Liverpool;0;2;A;D England
+232;01/02/2025;15:00;Everton;Leicester;4;0;H;D Bond
+233;01/02/2025;15:00;Ipswich;Southampton;1;2;A;M Oliver
+234;01/02/2025;15:00;Newcastle;Fulham;1;2;A;C Kavanagh
+235;01/02/2025;17:30;Wolves;Aston Villa;2;0;H;A Madley
+236;02/02/2025;14:00;Brentford;Tottenham;0;2;A;J Gillett
+237;02/02/2025;14:00;Man United;Crystal Palace;0;2;A;J Brooks
+238;02/02/2025;16:30;Arsenal;Man City;5;1;H;P Bankes
+239;03/02/2025;20:00;Chelsea;West Ham;2;1;H;S Attwell
+240;12/02/2025;19:30;Everton;Liverpool;2;2;D;M Oliver
+241;14/02/2025;20:00;Brighton;Chelsea;3;0;H;K Kavanagh
+242;15/02/2025;12:30;Leicester;Arsenal;0;2;A;S Barrott
+243;15/02/2025;15:00;Aston Villa;Ipswich;1;1;D;R Jones
+244;15/02/2025;15:00;Fulham;Nott'm Forest;2;1;H;T Bramall
+245;15/02/2025;15:00;Man City;Newcastle;4;0;H;A Madley
+246;15/02/2025;15:00;Southampton;Bournemouth;1;3;A;J Gillett
+247;15/02/2025;15:00;West Ham;Brentford;0;1;A;D England
+248;15/02/2025;17:30;Crystal Palace;Everton;1;2;A;A Taylor
+249;16/02/2025;14:00;Liverpool;Wolves;2;1;H;S Hooper
+250;16/02/2025;16:30;Tottenham;Man United;1;0;H;P Bankes
+251;19/02/2025;19:30;Aston Villa;Liverpool;2;2;D;C Pawson
+252;21/02/2025;20:00;Leicester;Brentford;0;4;A;T Harrington
+253;22/02/2025;12:30;Everton;Man United;2;2;D;A Madley
+254;22/02/2025;15:00;Arsenal;West Ham;0;1;A;C Pawson
+255;22/02/2025;15:00;Bournemouth;Wolves;0;1;A;M Salisbury
+256;22/02/2025;15:00;Fulham;Crystal Palace;0;2;A;R Jones
+257;22/02/2025;15:00;Ipswich;Tottenham;1;4;A;T Robinson
+258;22/02/2025;15:00;Southampton;Brighton;0;4;A;D Bond
+259;22/02/2025;17:30;Aston Villa;Chelsea;2;1;H;M Oliver
+260;23/02/2025;14:00;Newcastle;Nott'm Forest;4;3;H;J Gillett
+261;23/02/2025;16:30;Man City;Liverpool;0;2;A;A Taylor
+262;25/02/2025;19:30;Brighton;Bournemouth;2;1;H;M Oliver
+263;25/02/2025;19:30;Crystal Palace;Aston Villa;4;1;H;S Barrott
+264;25/02/2025;19:30;Wolves;Fulham;1;2;A;P Bankes
+265;25/02/2025;20:15;Chelsea;Southampton;4;0;H;T Bramall
+266;26/02/2025;19:30;Brentford;Everton;1;1;D;S Hooper
+267;26/02/2025;19:30;Man United;Ipswich;3;2;H;D England
+268;26/02/2025;19:30;Nott'm Forest;Arsenal;0;0;D;A Madley
+269;26/02/2025;19:30;Tottenham;Man City;0;1;A;J Gillett
+270;26/02/2025;20:15;Liverpool;Newcastle;2;0;H;C Kavanagh
+271;27/02/2025;20:00;West Ham;Leicester;2;0;H;S Attwell
+272;08/03/2025;12:30;Nott'm Forest;Man City;1;0;H;C Kavanagh
+273;08/03/2025;15:00;Brighton;Fulham;2;1;H;S Barrott
+274;08/03/2025;15:00;Crystal Palace;Ipswich;1;0;H;S Hooper
+275;08/03/2025;15:00;Liverpool;Southampton;3;1;H;L Smith
+276;08/03/2025;17:30;Brentford;Aston Villa;0;1;A;J Gillett
+277;08/03/2025;20:00;Wolves;Everton;1;1;D;S Attwell
+278;09/03/2025;14:00;Chelsea;Leicester;1;0;H;T Robinson
+279;09/03/2025;14:00;Tottenham;Bournemouth;2;2;D;J Brooks
+280;09/03/2025;16:30;Man United;Arsenal;1;1;D;A Taylor
+281;10/03/2025;20:00;West Ham;Newcastle;0;1;A;M Salisbury
+282;15/03/2025;15:00;Everton;West Ham;1;1;D;D Bond
+283;15/03/2025;15:00;Ipswich;Nott'm Forest;2;4;A;M Salisbury
+284;15/03/2025;15:00;Man City;Brighton;2;2;D;S Hooper
+285;15/03/2025;15:00;Southampton;Wolves;1;2;A;R Jones
+286;15/03/2025;17:30;Bournemouth;Brentford;1;2;A;C Pawson
+287;16/03/2025;13:30;Arsenal;Chelsea;1;0;H;C Kavanagh
+288;16/03/2025;13:30;Fulham;Tottenham;2;0;H;A Madley
+289;16/03/2025;19:00;Leicester;Man United;0;3;A;T Bramall
+290;01/04/2025;19:45;Arsenal;Fulham;2;1;H;J Brooks
+291;01/04/2025;19:45;Wolves;West Ham;1;0;H;T Harrington
+292;01/04/2025;20:00;Nott'm Forest;Man United;1;0;H;J Gillett
+293;02/04/2025;19:45;Bournemouth;Ipswich;1;2;A;R Jones
+294;02/04/2025;19:45;Brighton;Aston Villa;0;3;A;S Attwell
+295;02/04/2025;19:45;Man City;Leicester;2;0;H;D England
+296;02/04/2025;19:45;Newcastle;Brentford;2;1;H;P Bankes
+297;02/04/2025;19:45;Southampton;Crystal Palace;1;1;D;A Madley
+298;02/04/2025;20:00;Liverpool;Everton;1;0;H;S Barrott
+299;03/04/2025;20:00;Chelsea;Tottenham;1;0;H;C Pawson
+300;05/04/2025;12:30;Everton;Arsenal;1;1;D;D England
+301;05/04/2025;15:00;Crystal Palace;Brighton;2;1;H;A Taylor
+302;05/04/2025;15:00;Ipswich;Wolves;1;2;A;P Bankes
+303;05/04/2025;15:00;West Ham;Bournemouth;2;2;D;T Robinson
+304;05/04/2025;17:30;Aston Villa;Nott'm Forest;2;1;H;S Hooper
+305;06/04/2025;14:00;Brentford;Chelsea;0;0;D;M Oliver
+306;06/04/2025;14:00;Fulham;Liverpool;3;2;H;C Kavanagh
+307;06/04/2025;14:00;Tottenham;Southampton;3;1;H;M Salisbury
+308;06/04/2025;16:30;Man United;Man City;0;0;D;J Brooks
+309;07/04/2025;20:00;Leicester;Newcastle;0;3;A;R Jones
+310;12/04/2025;12:30;Man City;Crystal Palace;5;2;H;J Gillett
+311;12/04/2025;15:00;Brighton;Leicester;2;2;D;D Bond
+312;12/04/2025;15:00;Nott'm Forest;Everton;0;1;A;C Pawson
+313;12/04/2025;15:00;Southampton;Aston Villa;0;3;A;T Bramall
+314;12/04/2025;17:30;Arsenal;Brentford;1;1;D;S Hooper
+315;13/04/2025;14:00;Chelsea;Ipswich;2;2;D;S Attwell
+316;13/04/2025;14:00;Liverpool;West Ham;2;1;H;A Madley
+317;13/04/2025;14:00;Wolves;Tottenham;4;2;H;A Taylor
+318;13/04/2025;16:30;Newcastle;Man United;4;1;H;C Kavanagh
+319;14/04/2025;20:00;Bournemouth;Fulham;1;0;H;O Oliver
+320;16/04/2025;19:30;Newcastle;Crystal Palace;5;0;H;D England
+321;19/04/2025;15:00;Brentford;Brighton;4;2;H;T Robinson
+322;19/04/2025;15:00;Crystal Palace;Bournemouth;0;0;D;S Barrott
+323;19/04/2025;15:00;Everton;Man City;0;2;A;S Hooper
+324;19/04/2025;15:00;West Ham;Southampton;1;1;D;A Kitchen
+325;19/04/2025;17:30;Aston Villa;Newcastle;4;1;H;J Gillett
+326;20/04/2025;14:00;Fulham;Chelsea;1;2;A;A Taylor
+327;20/04/2025;14:00;Ipswich;Arsenal;0;4;A;C Kavanagh
+328;20/04/2025;14:00;Man United;Wolves;0;1;A;R Jones
+329;20/04/2025;16:30;Leicester;Liverpool;0;1;A;S Attwell
+330;21/04/2025;20:00;Tottenham;Nott'm Forest;1;2;A;P Bankes
+331;22/04/2025;20:00;Man City;Aston Villa;2;1;H;C Pawson
+332;23/04/2025;20:00;Arsenal;Crystal Palace;2;2;D;M Salisbury
+333;26/04/2025;12:30;Chelsea;Everton;1;0;H;C Kavanagh
+334;26/04/2025;15:00;Brighton;West Ham;3;2;H;D England
+335;26/04/2025;15:00;Newcastle;Ipswich;3;0;H;M Salisbury
+336;26/04/2025;15:00;Southampton;Fulham;1;2;A;T Harrington
+337;26/04/2025;15:00;Wolves;Leicester;3;0;H;S Barrott
+338;27/04/2025;14:00;Bournemouth;Man United;1;1;D;P Bankes
+339;27/04/2025;16:30;Liverpool;Tottenham;5;1;H;T Bramall
+340;01/05/2025;19:30;Nott'm Forest;Brentford;0;2;A;D England
+341;02/05/2025;20:00;Man City;Wolves;1;0;H;P Bankes
+342;03/05/2025;12:30;Aston Villa;Fulham;1;0;H;R Jones
+343;03/05/2025;15:00;Everton;Ipswich;2;2;D;L Smith
+344;03/05/2025;15:00;Leicester;Southampton;2;0;H;D Webb
+345;03/05/2025;17:30;Arsenal;Bournemouth;1;2;A;J Gillett
+346;04/05/2025;14:00;Brentford;Man United;4;3;H;A Taylor
+347;04/05/2025;14:00;Brighton;Newcastle;1;1;D;C Pawson
+348;04/05/2025;14:00;West Ham;Tottenham;1;1;D;M Oliver
+349;04/05/2025;16:30;Chelsea;Liverpool;3;1;H;S Hooper
+350;05/05/2025;20:00;Crystal Palace;Nott'm Forest;1;1;D;A Madley
+351;10/05/2025;15:00;Fulham;Everton;1;3;A;M Salisbury
+352;10/05/2025;15:00;Ipswich;Brentford;0;1;A;S Barrott
+353;10/05/2025;15:00;Southampton;Man City;0;0;D;T Robinson
+354;10/05/2025;15:00;Wolves;Brighton;0;2;A;M Oliver
+355;10/05/2025;17:30;Bournemouth;Aston Villa;0;1;A;S Attwell
+356;11/05/2025;12:00;Newcastle;Chelsea;2;0;H;J Brooks
+357;11/05/2025;14:15;Man United;West Ham;0;2;A;J Gillett
+358;11/05/2025;14:15;Nott'm Forest;Leicester;2;2;D;T Harrington
+359;11/05/2025;14:15;Tottenham;Crystal Palace;0;2;A;C Kavanagh
+360;11/05/2025;16:30;Liverpool;Arsenal;2;2;D;A Taylor
+361;16/05/2025;19:30;Aston Villa;Tottenham;2;0;H;P Bankes
+362;16/05/2025;20:15;Chelsea;Man United;1;0;H;C Kavanagh
+363;18/05/2025;12:00;Everton;Southampton;2;0;H;M Oliver
+364;18/05/2025;14:15;West Ham;Nott'm Forest;1;2;A;S Barrott
+365;18/05/2025;15:00;Brentford;Fulham;2;3;A;J Gillett
+366;18/05/2025;15:00;Leicester;Ipswich;2;0;H;A Kitchen
+367;18/05/2025;16:30;Arsenal;Newcastle;1;0;H;S Hooper
+368;19/05/2025;20:00;Brighton;Liverpool;3;2;H;J Brooks
+369;20/05/2025;20:00;Crystal Palace;Wolves;4;2;H;D Webb
+370;20/05/2025;20:00;Man City;Bournemouth;3;1;H;T Bramall
+371;25/05/2025;16:00;Bournemouth;Leicester;2;0;H;L Smith
+372;25/05/2025;16:00;Fulham;Man City;0;2;A;A Madley
+373;25/05/2025;16:00;Ipswich;West Ham;1;3;A;T Robinson
+374;25/05/2025;16:00;Liverpool;Crystal Palace;1;1;D;D England
+375;25/05/2025;16:00;Man United;Aston Villa;2;0;H;T Bramall
+376;25/05/2025;16:00;Newcastle;Everton;0;1;A;T Harrington
+377;25/05/2025;16:00;Nott'm Forest;Chelsea;0;1;A;A Taylor
+378;25/05/2025;16:00;Southampton;Arsenal;1;2;A;D Bond
+379;25/05/2025;16:00;Tottenham;Brighton;1;4;A;R Jones
+380;25/05/2025;16:00;Wolves;Brentford;1;1;D;C Pawson
