@@ -8,14 +8,6 @@ Une application Streamlit pour prédire l'issue d'un match de football ainsi que
 * Affichage des probabilités par issue sous forme de barplot.
 * Indication de l’équipe gagnante pour plus de fun.
 
----
-
-## Capture d’écran
-
-<img width="530" height="531" alt="Annotation 2025-09-12 145922" src="https://github.com/user-attachments/assets/2bb96fab-86a2-419d-9c74-cca56b0d8c6e" />
-
----
-
 ## Technologies utilisées
 
 * Python 3.13
@@ -37,6 +29,9 @@ Une application Streamlit pour prédire l'issue d'un match de football ainsi que
 - Préprocessing : Encoder intelligemment les variables catégorielles et gérer les valeurs manquantes.
 - Interface : Afficher l’historique des matchs, graphiques de probabilités et prédictions batch.
 - Déploiement : Cacher les calculs répétitifs, automatiser la mise à jour des modèles et envisager un API.
+
+  ## URL Streamlit
+  https://matchapp-enjlbmdpht287whpjrmlva.streamlit.app/ 
 
 ## 👨‍💻 Auteur
 Camille Boris FAGBEDJI
