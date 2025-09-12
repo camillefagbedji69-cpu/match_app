@@ -6,13 +6,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # --- Charger les modèles sauvegardés ---
-model_classif = joblib.load('model_match_prediction.pkl')
-model_but = joblib.load('best_regression_model.pkl')
+model_classif = joblib.load('model_match_prediction.pkl')   # modèle classification
+model_regress = joblib.load('best_regression_model.pkl')    # modèle régression
 
-st.title("Prédiction des matchs de football")
+st.title("Prédiction de l'issue d'un match et du nombre total de buts")
 
 # --- Charger la base de données ---
-data = pd.read_csv("Foot_data.csv")
+data = pd.read_csv("Foot_data.csv", sep=';')
+
+# --- Créer colonne total_goals pour vérifier la cible régression ---
+data['total_goals'] = data['FTHG'] + data['FTAG']
 
 # --- Extraire les valeurs uniques pour les selectbox ---
 equipes = pd.unique(data[['HomeTeam','AwayTeam']].values.ravel())
@@ -23,34 +26,35 @@ home_team = st.selectbox("Équipe à domicile", equipes)
 away_team = st.selectbox("Équipe visiteuse", equipes)
 arbitre = st.selectbox("Arbitre du match", arbitres)
 
-# --- Créer DataFrame pour le modèle avec les colonnes exactes du pipeline ---
+# --- Créer DataFrame pour le modèle ---
 input_df = pd.DataFrame({
     'HomeTeam': [home_team],
     'AwayTeam': [away_team],
     'Referee': [arbitre]
 })
 
-# --- Bouton pour prédiction de l'issue du match ---
+# --- Bouton pour prédiction de l'issue ---
 if st.button("Prédire le résultat"):
-    # Prédiction classification
+    # Classification
     prediction = model_classif.predict(input_df)
-    proba = model_classif.predict_proba(input_df)[0]  # première ligne
+    proba = model_classif.predict_proba(input_df)[0]
 
     # Décodage si LabelEncoder utilisé
     mapping = {0:'A', 1:'D', 2:'H'}
     pred_label = mapping[prediction[0]]
-
     st.write(f"**Résultat prédit : {pred_label}**")
 
-    # --- Barplot des probabilités ---
+    # DataFrame pour barplot
     proba_df = pd.DataFrame({
         'Résultat': ['A','D','H'],
         'Probabilité': proba
     })
 
+    # Afficher le DataFrame
     st.write("**Probabilités par issue :**")
     st.dataframe(proba_df)
 
+    # Barplot des probabilités
     fig, ax = plt.subplots()
     sns.barplot(x='Résultat', y='Probabilité', data=proba_df, palette='viridis', ax=ax)
     ax.set_ylim(0,1)
@@ -60,5 +64,5 @@ if st.button("Prédire le résultat"):
 
 # --- Bouton pour prédiction du nombre total de buts ---
 if st.button("Prédire le nombre de buts"):
-    but_predit = model_but.predict(input_df)
-    st.write(f"**Nombre total de buts prédits : {but_predit[0]:.1f}**")
+    but_predit = model_regress.predict(input_df)[0]  # récupère la valeur
+    st.write(f"**Nombre total de buts prédits : {but_predit:.0f}**")
