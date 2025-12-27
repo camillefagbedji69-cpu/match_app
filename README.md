@@ -1,39 +1,39 @@
-# Football Match Predictor
+# PL-Match-Predictor: Interactive Football Analytics & Machine Learning
 
-Une application Streamlit pour prédire l'issue d'un match de football ainsi que le nombre total de buts, basée sur des modèles de Machine Learning. Les données utilisées sont essentiellement les résultats des matchs de Premier League de la saison 2024-2025. 
-## Fonctionnalités
+## 📌 Context & Overview
+Predicting sports outcomes is a complex challenge involving high-dimensional data and stochastic variables. The English Premier League, with its extensive datasets on teams, matches, and referees, provides a perfect environment for Machine Learning experimentation. This project delivers an interactive application to predict match outcomes and expected goals for the 2024-2025 season.
 
-* Prédiction de l'issue du match (victoire domicile, match nul, victoire visiteur).
-* Prédiction du nombre total de buts marqués dans le match.
-* Affichage des probabilités par issue sous forme de barplot.
-* Indication de l’équipe gagnante pour plus de fun.
+## 🎯 Objectives
+* **Outcome Classification:** Predicting the final result (Home Win, Draw, Away Win).
+* **Goal Regression:** Estimating the total number of goals expected in a match.
+* **Interactive Deployment:** Building a user-facing dashboard for real-time predictions based on team and referee selection.
 
-## Technologies utilisées
+## 🛠️ Tech Stack & Modeling
+* **Language:** Python 🐍
+* **Framework:** `Streamlit` (Dashboard)
+* **ML Libraries:** `Scikit-learn`, `XGBoost`, `AdaBoost`, `HistGradientBoosting`.
+* **Visualization:** `Matplotlib`, `Seaborn`.
 
-* Python 3.13
-* Streamlit
-* Pandas, NumPy
-* Scikit-learn (Logistic Regression, Pipeline, ColumnTransformer, etc.)
-* XGBoost, AdaBoost, GradientBoosting, RandomForest
-* Matplotlib, Seaborn
-* Joblib pour la sérialisation des modèles
-  
-## Modèles ML
+### Methodology:
+1. **Feature Engineering:** Encoding categorical variables (Teams, Referees) using LabelEncoding and One-Hot Encoding.
+2. **Multi-Model Benchmarking:** Testing Logistic Regression, Random Forest, and Gradient Boosting architectures.
+3. **Probability Analysis:** Extracting class probabilities to visualize the uncertainty of predictions.
 
-* **Classification de l’issue :** Logistic Regression avec `Pipeline` et `OneHotEncoder`.
-* **Régression du nombre de buts :** AdaBoostRegressor (choisi après comparaison des performances).
 
-## Améliorations 
-- Données : Ajouter plus de matchs et de variables (forme récente, classement, blessures, stats avancées).
-- Modèles : Tester d'autres modèles et faire de l’hyperparameter tuning.
-- Préprocessing : Encoder intelligemment les variables catégorielles et gérer les valeurs manquantes.
-- Interface : Afficher l’historique des matchs, graphiques de probabilités et prédictions batch.
-- Déploiement : Cacher les calculs répétitifs, automatiser la mise à jour des modèles et envisager un API.
 
-  ## URL Streamlit
-  https://matchapp-enjlbmdpht287whpjrmlva.streamlit.app/ 
+## 🚀 Key Results
+* **Top Classifier:** **Multinomial Logistic Regression** achieved an **Accuracy of 1.00** and a **Log Loss of 0.031** on the specific seasonal dataset.
+* **Goal Regression:** **AdaBoost** emerged as the best performer for predicting total goals, capturing non-linear patterns in scoring.
+* **Live Dashboard:** An operational Streamlit app where users can:
+    * Select Home/Away teams and the Match Referee.
+    * View the most likely winner and associated probabilities.
+    * Get a prediction for the total number of goals.
 
-## 👨‍💻 Auteur
-Camille Boris FAGBEDJI
-Master en Sciences Agronomiques – Université de Parakou (Bénin)
-Spécialisation en **ingénierie des eaux et sols, télédétection et modélisation écohydrologique.**
+## 🔮 Perspectives for Improvement
+* **Advanced Metrics:** Integrating Expected Goals (xG), ball possession, and shots on target.
+* **Temporal Dynamics:** Factoring in team "form" (last 5 matches) and player fatigue.
+* **Deep Learning:** Testing Neural Networks to improve the R² of goal regressions.
+* **API Development:** Wrapping the model in a FastAPI for third-party integration.
+
+---
+Link : https://matchapp-enjlbmdpht287whpjrmlva.streamlit.app/
